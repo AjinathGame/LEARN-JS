@@ -115,3 +115,42 @@ let b2='10'
 
 console.log(a2!==b2)
 
+// greather than 
+
+console.log(10>20)
+
+// less than
+
+console.log(10<20)
+
+// greather than or equal to
+
+console.log(20>=20)
+
+// less than or equal to
+
+console.log(10<=10)
+
+
+// 4 logical opeartor
+
+// &&
+
+console.log(true && true)
+console.log(true && false)
+console.log(false && true)
+console.log(false && false)
+
+
+// ||
+
+console.log(true || true)
+console.log(true || false)
+console.log(false || true)
+console.log(false || false)
+
+
+// !
+
+console.log(!true)
+console.log(!false)
