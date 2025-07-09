@@ -38,7 +38,12 @@ if(number % 2 == 0){
 let number_2 = 4
 
 if(number_2 > 0){
+    
     console.log(number_2,'is positive')
+
+
 }else if(number_2 < 0){
     console.log(number_2,'is negative')
 }
+
+
