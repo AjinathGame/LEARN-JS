@@ -84,4 +84,6 @@ let info = (func)=>{
      func()
 }
 
-info(name)
+info(name)      // this is call by function
+
+// call by function means function pass another function is called as call by function
