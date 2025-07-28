@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+            position: relative;
+            background-color: rgba(63, 60, 60, 0.788);
+            
+        }
+    #input-text {
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+    #btn{
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        background-color: #007bff;
+        color: white;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+    #btn:hover {
+        background-color: #0056b3;
+    }
+    #notification-box {
+        margin-top: 20px;
+        padding: 10px;
+        height: 40px;
+        display: flex;
+        position: absolute;
+        top: -40%;
+        transition: .5s;
+        transform: translateX(-50%,0);
+        justify-content: start;
+        align-items: center;
+        border-radius: 5px;
+        background-color: #fff;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        width: 300px;
+        text-align: center;
+    }
+    </style>
+</head>
+<body>
+    
+    <input placeholder="Enter text" id="input-text">
+    <button id="btn">Notify</button>
+    <div id="notification-box">
+
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
