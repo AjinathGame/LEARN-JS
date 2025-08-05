@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: black;
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        form h1{
+            color: white;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            height: 40vh;
+            width: 25%;
+           
+
+        }
+
+        form input {
+            padding: 10px 40px;
+        }
+
+        button{
+         padding: 20px 50px;
+          background-color: skyblue;
+          border: none;
+        }
+
+    
+    </style>
+</head>
+
+<body>
+    <form id="form">
+
+        <h1>Sign Up</h1>
+
+        <div>
+            <input type="text" id="userName">
+        </div>
+
+        <div>
+            <input type="email" id="email">
+        </div>
+
+        <div>
+            <input type="password" id="pass">
+        </div>
+
+        <p id="error-container"></p>
+  
+        <button type="submit" id="submit-btn">Submit</button>
+
+    </form>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
